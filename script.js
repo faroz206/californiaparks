@@ -30,10 +30,9 @@ var style = new carto.style.CartoCSS(`
 }  
 `);
 
-// Add style to the data
+
 var layer = new carto.layer.Layer(source, style);
 
-// Add the data to the map as a layer
 client.addLayer(layer);
 client.getLeafletLayer().addTo(map);
 var accesstypeButton = document.querySelector('.accesstype-button');
