@@ -16,6 +16,6 @@ a {
 #map {
   /*position: absolute;*/
   height: 500px;
-  width: 100%;border: 20px solid Black;opacity: 100%;
+  width: 100%;border: 20px solid Black;
 }
 button  {border: 5px solid #b6eada ; background-color:beige;padding: 20px; margin:4px;}
