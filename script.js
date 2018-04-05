@@ -17,7 +17,7 @@ var source = new carto.source.SQL('SELECT *FROM cpad_2015');
 
 
 var style = new carto.style.CartoCSS(`
-#layer = {
+#layer :: {
   polygon-fill: ramp([access_typ], (#b6ffdf, #ffc400, #ff2424, #cfcfcf), ("Open Access", "Restricted Access", "No Public Access", "Unknown Access"), "=");
   polygon-opacity: 1;
 }
