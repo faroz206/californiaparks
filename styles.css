@@ -1,0 +1,21 @@
+<h1 style="color:blue;font-size:30px">This is a Blue Heading</h1>
+a { color: purple;}
+.small-link {color:black}
+p {
+    body: yellow; border: 20px solid Black;background-color: #303030;  padding: 60px;
+}
+h1 {
+    color: Black; border:2px solid #44937b; background-color: #b6eada;  padding: 30px;
+}
+p {
+    color: Orange;
+}
+a {
+    color: gray;
+}
+#map {
+  /*position: absolute;*/
+  height: 500px;
+  width: 100%;border: 20px solid Black;
+}
+button  {border: 5px solid #b6eada ; background-color:beige;padding: 20px; margin:4px;}
